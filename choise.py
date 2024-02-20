@@ -52,10 +52,10 @@ secondquestion = firstquestion
 while secondquestion == firstquestion:
   secondquestion = random.randint(0, 5)
 
-    thirdquestion = firstquestion
+  thirdquestion = firstquestion
 
 while thirdquestion == firstquestion or thirdquestion == secondquestion:
-    thirdquestion = random.randint(0, 5)
+  thirdquestion = random.randint(0, 5)
 
 print("Firstquestion :")
 print(words[firstquestion])
