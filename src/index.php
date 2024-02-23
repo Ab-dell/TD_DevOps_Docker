@@ -10,4 +10,4 @@ echo 'question2';
 echo "<br>";
 echo 'question3';
 echo "<br>";
-?>
+
