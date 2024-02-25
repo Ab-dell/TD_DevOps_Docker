@@ -31,4 +31,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/td_devops:{tag}
+          tags: ${{ secrets.DOCKER_USERNAME }}/td_devops
